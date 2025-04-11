@@ -9,7 +9,7 @@
   }
 
   .profile-container{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
   
   .profile-img {
@@ -25,3 +25,26 @@
     margin: 0.5rem 0;
   }
   
+  /* Add this to your CSS file or inside the style tags in your component */
+
+.skills-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.skill-box {
+  padding: 10px 10px;
+  background-color: #ffff;
+  border-radius: 18px; /* Round corners */
+  border: 1px solid #ccc;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h5 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
