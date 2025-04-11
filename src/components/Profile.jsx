@@ -5,13 +5,13 @@ function Profile() {
 
 
     return (
-        <div>
+        <div className="profile-container">
             <div className="profile-section">
                 <img src={profile} alt="Profile" className="profile-img" />
                 <div className="contact-info">
                     <p>Tel: +1 (647) 637-0831</p>
                     <p>Email: hoyiuyiuyoyo@gmail.com</p>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/yoyoho" target="_blank">yoyoho</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/yoyoho" target="_blank">Yoyo Ho</a></p>
                     <p>GitHub: <a href="https://github.com/yobisaboy" target="_blank">yobisaboy</a></p>
                 </div>
             </div>

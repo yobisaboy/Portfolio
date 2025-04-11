@@ -2,9 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: flex-end; /* Align to the right */
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
     text-align: left; /* Optional: keep text left-aligned */
+    margin-bottom: 20px;
+  }
+
+  .profile-container{
+    margin-bottom: 50px;
   }
   
   .profile-img {

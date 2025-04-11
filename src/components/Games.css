@@ -8,23 +8,42 @@
 }
 
 .custom-card .card-image {
-  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  height: 50%;
 }
 
-.custom-card img {
-  max-height: 100%;
-  object-fit: contain;
+.card-image img.screenshot {
+  width: 100%;
+  height: 56%;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+}
+
+.card-image img.play-icon {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.custom-card img.play-icon:hover {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.05);
 }
 
 .custom-card .card-body {
+  height: 50%;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Ensure content is spaced out */
+  justify-content: space-between;
+  /* Ensure content is spaced out */
   margin-top: 10px;
   padding: 10px;
 }
@@ -37,7 +56,7 @@
 }
 
 .card-body .button-group {
-  margin-top: auto; /* Push the button group to the bottom */
+  margin-top: auto;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -48,4 +67,33 @@
 .card-body .btn img {
   width: 30px;
   height: 30px;
+}
+
+.card-body .small-button {
+  background-color: #FFF;
+  /* Nintendo-style blue */
+  color: black;
+  font-weight: 400;
+  padding: 4px 8px;
+  margin-top: 10px;
+  border: 1.5px solid #000;
+  border-radius: 20px;
+  font-size: 14px;
+  width: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* box-shadow: 0 2px 6px black; */
+}
+
+.card-body .small-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.card-body a.link-button {
+  text-decoration: none;
+  /* Removes underline */
+  color: inherit;
+  /* Inherits color from button */
+  display: inline-block;
 }
