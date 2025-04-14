@@ -17,7 +17,7 @@ function Games() {
 
       <div className="row g-2"> {/* 'g-2' reduces the gap between the cards */}
         {games.map((game) => (
-          <div key={game.id} className="col-0 col-md-4 mb-4"> {/* 4 cards per row */}
+          <div key={game.id} className="col-12 col-md-4 mb-4"> {/* 4 cards per row */}
             <div className="card custom-card">
               <div className="card-image">
 
