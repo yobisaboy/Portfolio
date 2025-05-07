@@ -17,18 +17,31 @@ function Profile() {
                 </div>
             </div>
 
-            <h3>About Me</h3>
-            <p>This is Yoyo.
-                I am a game developer with a passion for creating immersive experiences.               
-                For my past work experience, I held a leadership role at an online service-matching company and a healthcare agency platform. 
-                </p>
+            <h4>Yoyo Ho</h4>
+            <p>I am a game developer with a passion for creating immersive experiences.</p>
 
-            <h4>Qualification</h4>
             <ul>
                 <li>Advanced Diploma in Game Programming from Centennial College, Toronto, Canada</li>
+                <li>Certificate in Inclusive Leadership Practices from Centennial College, Toronto, Canada</li>
                 <li>Bachelor’s Degree in China Studies (Economics) from Hong Kong Baptist University, Hong Kong</li>
             </ul>
 
+            <div>
+                {skillData.map((category, index) => (
+                    <div key={index}>
+                        <h5>{category.category.replace(/^\w/, (c) => c.toUpperCase())}</h5>
+                        <div className="skills-container">
+                            {category.skills.map((skill, idx) => (
+                                <div key={idx} className="skill-box">
+                                    {skill}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </div>
+            <p></p>
+            <p></p>
             <h4>Fast Learner</h4>
             <p>My transition from Economics to Game Programming demonstrates that I am capable of quickly acquiring new knowledge. 
                 Additionally, my experience working in start-up companies required me to manage different parts of team operations without guidance. 
@@ -45,21 +58,7 @@ function Profile() {
                 As a customer service team leader in my past work experience, I was always the last resort for handling complaints. 
                 This experience strengthened my problem-solving skills and ability to manage difficult situations effectively.</p>
 
-            <div>
-                <h4>Skills</h4>
-                {skillData.map((category, index) => (
-                    <div key={index}>
-                        <h5>{category.category.replace(/^\w/, (c) => c.toUpperCase())}</h5>
-                        <div className="skills-container">
-                            {category.skills.map((skill, idx) => (
-                                <div key={idx} className="skill-box">
-                                    {skill}
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                ))}
-            </div>
+            
         </div>
     );
 
