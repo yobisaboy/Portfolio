@@ -72,7 +72,8 @@ function App() {
       >
       <Container className="justify-content-end">
             <Nav className="mr-auto">
-              <Nav.Link href="mailto:hoyiuyiuyoyo@gmail.com">Contact</Nav.Link>
+              <Nav.Link as={Link} to="/home" target="_blank" rel="noopener noreferrer">Profile</Nav.Link>
+              <Nav.Link href="mailto:yobisaboy@gmail.com">Contact</Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/yoyoho" target="_blank" rel="noopener noreferrer">LinkedIn</Nav.Link>
               <Nav.Link href="https://github.com/yobisaboy" target="_blank" rel="noopener noreferrer">GitHub</Nav.Link>
             </Nav>

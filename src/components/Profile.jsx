@@ -17,7 +17,7 @@ function Profile() {
                 </div>
             </div>
 
-            <h4>Yoyo Ho</h4>
+            <h4><b>Yoyo Ho</b></h4>
             <p>I am a game developer with a passion for creating immersive experiences.</p>
 
             <ul>
@@ -40,25 +40,42 @@ function Profile() {
                     </div>
                 ))}
             </div>
+
             <p></p>
-            <p></p>
-            <h4>Fast Learner</h4>
-            <p>My transition from Economics to Game Programming demonstrates that I am capable of quickly acquiring new knowledge. 
-                Additionally, my experience working in start-up companies required me to manage different parts of team operations without guidance. 
-                This meant I had to independently search for resources to accomplish my tasks. 
-                In the fast-changing IT industry, I believe this adaptability is an essential skill for success.</p>
+            <div class="card-container">
 
-            <h4>Responsible & Organized</h4>
-            <p>While working at a healthcare agency, I was responsible for building the entire workflow system for service matching from scratch and establishing a new team. 
-                This demonstrates my ability to plan, organize, and allocate resources efficiently. 
-                In school, I participated in lots of group projects, where I took the lead in coordinating teammates and managing deadlines, highlighting my time management, responsibility, and communication skills.</p>
+                <div class="card">
+                    <h4>Efficient, Responsible & Organized</h4>
+                    <p>
+                        While working at a healthcare agency, I was responsible for building the entire workflow system for service matching from scratch and establishing a new team.
+                        This demonstrates my ability to plan, organize, and allocate resources efficiently.
+                        In school, I participated in lots of group projects, where I took the lead in coordinating teammates and managing deadlines, highlighting my time management, responsibility, and communication skills.
+                    </p>
+                </div>
 
-            <h4>Skilled at Problem-Solving</h4>
-            <p>During my studies, I consistently performed well in mathematics and programming, showcasing my strong problem-solving abilities. 
-                As a customer service team leader in my past work experience, I was always the last resort for handling complaints. 
-                This experience strengthened my problem-solving skills and ability to manage difficult situations effectively.</p>
+                <div class="card">
+                    <h4>Agile & Growth-minded</h4>
+                    <p>
+                        My transition from Economics to Game Programming demonstrates that I am capable of quickly acquiring new knowledge.
+                        Additionally, my experience working in start-up companies required me to manage different parts of team operations without guidance.
+                        This meant I had to independently search for resources to accomplish my tasks.
+                        In the fast-changing IT industry, I believe this adaptability is an essential skill for success.
+                    </p>
+                </div>
 
-            
+                <div class="card">
+                    <h4>Analytical & Solution-Oriented</h4>
+                    <p>
+                        During my studies, I consistently performed well in mathematics and programming, showcasing my strong problem-solving abilities.
+                        As a customer service team leader in my past work experience, I was always the last resort for handling complaints.
+                        This experience strengthened my problem-solving skills and ability to manage difficult situations effectively.
+                    </p>
+                </div>
+
+            </div>
+
+
+
         </div>
     );
 
