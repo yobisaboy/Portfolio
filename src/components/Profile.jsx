@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import profile from '../assets/profile.jpg';
+import profile from '../assets/IMG_8254.jpg';
 import './Profile.css';
 import skillData from './skillData';
 function Profile() {
@@ -11,7 +11,7 @@ function Profile() {
                 <img src={profile} alt="Profile" className="profile-img" />
                 <div className="contact-info">
                     <p>Tel: +1 (647) 637-0831</p>
-                    <p>Email: hoyiuyiuyoyo@gmail.com</p>
+                    <p>Email: yobisaboy@gmail.com</p>
                     <p>LinkedIn: <a href="https://www.linkedin.com/in/yoyoho" target="_blank">Yoyo Ho</a></p>
                     <p>GitHub: <a href="https://github.com/yobisaboy" target="_blank">yobisaboy</a></p>
                 </div>
