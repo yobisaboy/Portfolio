@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import profile from '../assets/IMG_8254.jpg';
+import profile from '../assets/IMG_8254.jpeg';
 import './Profile.css';
 import skillData from './skillData';
 function Profile() {
