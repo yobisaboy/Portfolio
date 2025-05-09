@@ -13,7 +13,7 @@ function Profile() {
     return (
         <div className="profile-container">
             <div className="profile-section">
-                <a href="https://yobisaboy.github.io/Portfolio/#/home" title="Yoyo's Portfolio" target="" rel="noopener noreferrer">
+                <a href="https://yobisaboy.github.io/Portfolio" title="Yoyo's Portfolio" target="" rel="noopener noreferrer">
                     <img src={profile} alt="Profile" className="profile-img" />
                 </a>
                 {/* <div className="contact-info">

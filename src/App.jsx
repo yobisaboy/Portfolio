@@ -92,11 +92,11 @@ function App() {
                 <img src={email} alt="Email" className="contact-icon" />
               </a>
 
-              <a href="https://www.linkedin.com/in/yoyoho" target="_blank" rel="noopener noreferrer" title="Yoyo's LinkedIn">
+              <a href="https://www.linkedin.com/in/yoyoho" target="" rel="noopener noreferrer" title="Yoyo's LinkedIn">
                 <img src={linkedin} alt="LinkedIn" className="contact-icon" />
               </a>
 
-              <a href="https://github.com/yobisaboy" target="_blank" rel="noopener noreferrer" title="Yoyo's GitHub">
+              <a href="https://github.com/yobisaboy" target="" rel="noopener noreferrer" title="Yoyo's GitHub">
                 <img src={github} alt="GitHub" className="contact-icon" />
               </a>
 
