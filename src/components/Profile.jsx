@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import profile from '../assets/IMG_8254.jpeg';
+import phone from '../assets/phone.png';
+import email from '../assets/email.png';
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.png';
+import whatsapp from '../assets/whatsapp.png';
 import './Profile.css';
 import skillData from './skillData';
 function Profile() {
@@ -8,13 +13,31 @@ function Profile() {
     return (
         <div className="profile-container">
             <div className="profile-section">
-                <img src={profile} alt="Profile" className="profile-img" />
-                <div className="contact-info">
-                    <p>Tel: +1 (647) 637-0831</p>
-                    <p>Email: yobisaboy@gmail.com</p>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/yoyoho" target="_blank">Yoyo Ho</a></p>
-                    <p>GitHub: <a href="https://github.com/yobisaboy" target="_blank">yobisaboy</a></p>
-                </div>
+                <a href="https://yobisaboy.github.io/Portfolio/#/home" title="Yoyo's Portfolio" target="" rel="noopener noreferrer">
+                    <img src={profile} alt="Profile" className="profile-img" />
+                </a>
+                {/* <div className="contact-info">
+                <a href="tel:+16476370831" target="_blank" rel="noopener noreferrer" title="Contact Yoyo via Phone Call">
+                        <img src={phone} alt="Phone" className="contact-icon" />
+                    </a>
+
+                    <a href="https://wa.me/+16476370831" target="_blank" rel="noopener noreferrer" title="Contact Yoyo via WhatsApp">
+                        <img src={whatsapp} alt="WhatsApp" className="contact-icon" />
+                    </a>
+
+                    <a href="mailto:yobisaboy@gmail.com" target="_blank" rel="noopener noreferrer" title="Contact Yoyo via Email">
+                        <img src={email} alt="Email" className="contact-icon" />
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/yoyoho" target="_blank" rel="noopener noreferrer" title="Yoyo's LinkedIn">
+                        <img src={linkedin} alt="LinkedIn" className="contact-icon" />
+                    </a>
+
+                    <a href="https://github.com/yobisaboy" target="_blank" rel="noopener noreferrer" title="Yoyo's GitHub">
+                        <img src={github} alt="GitHub" className="contact-icon" />
+                    </a>
+
+                </div> */}
             </div>
 
             <h4><b>Yoyo Ho</b></h4>
