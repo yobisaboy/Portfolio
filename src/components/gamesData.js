@@ -8,7 +8,22 @@ import cottoncandy from '../assets/cottoncandy.png';
 import bravefox from '../assets/bravefox.png';
 import hotdogplanet from '../assets/hotdogplanet.png';
 
+import none from '../assets/none.png';
+
 const games = [
+  {
+    id: 9,
+    title: 'Prototype',
+    year: 2025,
+    description: 'It is a prototype of basic mobile games. In Progress...',
+    image: none,
+    webgl: 'https://github.com/yoyohohoh/Prototype',
+    exe: 'https://github.com/yoyohohoh/Prototype',
+    unity: 'https://github.com/yoyohohoh/Prototype',
+    demo: 'https://github.com/yoyohohoh/Prototype',
+    details: 'https://github.com/yoyohohoh/Prototype/blob/main/README.md'
+  },
+
   {
     id: 8,
     title: 'Coffee Guru',

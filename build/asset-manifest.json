@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.1105f611.css",
-    "main.js": "/Portfolio/static/js/main.6dfcdd86.js",
+    "main.js": "/Portfolio/static/js/main.01bf7aac.js",
     "static/media/IMG_8254.jpeg": "/Portfolio/static/media/IMG_8254.bced24c0468966fe0cbb.jpeg",
     "static/media/krashkart.png": "/Portfolio/static/media/krashkart.eeee53bd7e1f6a4ef42d.png",
     "static/media/coffeeguru.png": "/Portfolio/static/media/coffeeguru.6c281d43f3f380c4cf1a.png",
@@ -12,6 +12,7 @@
     "static/media/harmonyheroes.png": "/Portfolio/static/media/harmonyheroes.5452a315337d152dfc66.png",
     "static/media/grimreaper.png": "/Portfolio/static/media/grimreaper.589b6d820b85528c200e.png",
     "static/media/hotdogplanet.png": "/Portfolio/static/media/hotdogplanet.acce1283bbe05d7917d6.png",
+    "static/media/none.png": "/Portfolio/static/media/none.02991704cf7260d1e631.png",
     "static/media/whatsapp.png": "/Portfolio/static/media/whatsapp.02736a253111ffdfca0c.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.88b7593dd00d5086e237.png",
     "static/media/github.png": "/Portfolio/static/media/github.f11021803f68852df283.png",
@@ -21,10 +22,10 @@
     "static/media/email.png": "/Portfolio/static/media/email.51b08bcbb5af7a861c31.png",
     "index.html": "/Portfolio/index.html",
     "main.1105f611.css.map": "/Portfolio/static/css/main.1105f611.css.map",
-    "main.6dfcdd86.js.map": "/Portfolio/static/js/main.6dfcdd86.js.map"
+    "main.01bf7aac.js.map": "/Portfolio/static/js/main.01bf7aac.js.map"
   },
   "entrypoints": [
     "static/css/main.1105f611.css",
-    "static/js/main.6dfcdd86.js"
+    "static/js/main.01bf7aac.js"
   ]
 }
