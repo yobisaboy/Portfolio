@@ -41,7 +41,7 @@ function Profile() {
             </div>
 
             <h4><b>Yoyo Ho</b></h4>
-            <p>I am a game developer with a passion for creating immersive experiences.</p>
+            <p>A game developer who codes in light mode.</p>
 
             <ul>
                 <li>Advanced Diploma in Game Programming from Centennial College, Toronto, Canada</li>

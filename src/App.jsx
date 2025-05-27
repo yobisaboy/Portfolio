@@ -80,9 +80,9 @@ function App() {
             {/* <Nav.Link as={Link} to="/home" target="_blank" rel="noopener noreferrer">Profile</Nav.Link> */}
 
             <div className="contact-info">
-              <a href="tel:+16476370831" target="_blank" rel="noopener noreferrer" title="Contact Yoyo via Phone Call">
+              {/* <a href="tel:+16476370831" target="_blank" rel="noopener noreferrer" title="Contact Yoyo via Phone Call">
                 <img src={phone} alt="Phone" className="contact-icon" />
-              </a>
+              </a> */}
 
               <a href="https://wa.me/+16476370831" target="_blank" rel="noopener noreferrer" title="Contact Yoyo via WhatsApp">
                 <img src={whatsapp} alt="WhatsApp" className="contact-icon" />
